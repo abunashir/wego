@@ -1,6 +1,13 @@
-# Wego API
+# Wego Hotels API
 
-Wego API Wrapper in Ruby
+[![Build
+Status](https://travis-ci.org/abunashir/wego.svg?branch=master)](https://travis-ci.org/abunashir/wego)
+[![Code
+Climate](https://codeclimate.com/github/abunashir/wego/badges/gpa.svg)](https://codeclimate.com/github/abunashir/wego)
+
+The Wego Hotels API allows developers to interact with the Hotels product of
+Wego.com programmatically via HTTP requests. All API methods are HTTP requests
+and responses are in JSON format unless otherwise stated.
 
 ## Installation
 
@@ -14,6 +21,18 @@ And then execute:
 
     $ bundle
 
+## Usages
+
+### Locations
+
+Use this to map user location queries to Wego location IDs. E.g. you will
+probably provide your users with a text field for entering the location when
+searching for hotels. The Locations API allows you to lookup text queries like
+"sydney" to get a list of matching locations and their IDs.
+
+```ruby
+Wego::Location.find "sydney"
+```
 
 ## Development
 
