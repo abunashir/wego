@@ -1,0 +1,33 @@
+{
+  "count": 3,
+  "query": "sydney",
+
+  "locations": [
+    {
+      "id": 7046,
+      "name": "Sydney, NSW, Australia - 741 hotels",
+      "country_name": "Australia",
+      "country_code": "AU",
+      "state_name": "{\"en\":\"New South Wales\"}",
+      "state_code": "NSW"
+    },
+
+    {
+      "id": 8564,
+      "name": "Sydney, Canada - 14 hotels",
+      "country_name": "Canada",
+      "country_code": "CA",
+      "state_name": null,
+      "state_code": null
+    },
+
+    {
+      "id": 18410,
+      "name": "North Sydney, SK, Canada - 21 hotels",
+      "country_name": "Canada",
+      "country_code": "CA",
+      "state_name": "{\"en\":\"Saskatchewan\"}",
+      "state_code": "SK"
+    }
+  ]
+}
