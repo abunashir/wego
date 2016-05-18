@@ -36,6 +36,6 @@ module FakeWegoApi
   end
 
   def api_keys
-    { ts_code: ENV["WAN_API_CODE"], key: ENV["WAN_API_KEY"] }
+    { key: Wego.configuration.api_key, ts_code: Wego.configuration.api_code }
   end
 end

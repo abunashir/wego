@@ -23,6 +23,18 @@ And then execute:
 
 ## Usages
 
+### Configure
+
+Once you are approved and you got your API key from Wego.com, then you can add
+an initializer to set your API key
+
+```ruby
+Wego.configure do |config|
+  config.api_key  = "WEGO_API_KEY"
+  config.api_code = "WEGO_TS_CODE"
+end
+```
+
 ### Locations
 
 Use this to map user location queries to Wego location IDs. E.g. you will

@@ -1,4 +1,5 @@
 require "rest-client"
+require "wego/configuration"
 
 module Wego
   class Client
@@ -18,11 +19,14 @@ module Wego
     private
 
     def api_path
-      ["http://api.wego.com/hotels/api", end_point].join("/")
+      [Wego.configuration.api_host, end_point].join("/")
     end
 
     def api_params
-      attributes.merge(ts_code: ENV["WAN_API_CODE"], key: ENV["WAN_API_KEY"])
+      attributes.merge(
+        ts_code: Wego.configuration.api_code,
+        key: Wego.configuration.api_key
+      )
     end
 
     def parse_response_to_object(response)
