@@ -34,6 +34,21 @@ searching for hotels. The Locations API allows you to lookup text queries like
 Wego::Location.find "sydney"
 ```
 
+### Search
+
+To perform a real-time search on Wego's partners' sites for rates in a given
+location and date range, you need to pass the search terms with the user's ip.
+For example: create new search for hotels in Sydney (location ID 7046)
+
+```ruby
+Wego::Search.create(
+  location_id: "7046",
+  check_in: "2016-05-20",
+  check_out: "2016-05-25",
+  user_ip: "127.0.0.1"
+)
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies.
