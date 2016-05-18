@@ -1,0 +1,650 @@
+{
+  "location": "Sydney",
+  "location_coordinates": [-33.8673, 151.183],
+  "total_count": 236,
+  "count": 5,
+  "filtered_count": 236,
+  "current_page": 1,
+  "per_page": 5,
+  "rates": {
+    "min": {
+      "price": 44,
+      "price_usd": 44.071998596191406,
+      "price_str": "44",
+      "currency_code": "USD"
+    },
+    "max": {
+      "price": 1076,
+      "price_usd": 1076.2900390625,
+      "price_str": "1,076",
+      "currency_code": "USD"
+    }
+  },
+  "districts": [{
+    "id": 60,
+    "name": "City Centre"
+  }, {
+  "id": 61,
+  "name": "Bondi"
+  }, {
+  "id": 54,
+  "name": "Kings Cross"
+  }, {
+  "id": 58,
+  "name": "Darling Harbour"
+  }, {
+  "id": 1313,
+  "name": "Manly"
+  }, {
+  "id": 2098,
+  "name": "Western Sydney"
+  }, {
+  "id": 1317,
+  "name": "Ryde"
+  }, {
+  "id": 57,
+  "name": "Darlinghurst - Surry Hills"
+  }, {
+  "id": 2095,
+  "name": "North Shore"
+  }, {
+  "id": 1310,
+  "name": "Coogee"
+  }, {
+  "id": 2096,
+  "name": "Sydney City"
+  }, {
+  "id": 51,
+  "name": "The Rocks"
+  }, {
+  "id": 2097,
+  "name": "Parramatta"
+  }, {
+  "id": 8589,
+  "name": "Chippendale"
+  }, {
+  "id": 52,
+  "name": "Sydney Airport (SYD)"
+  }, {
+  "id": 1307,
+  "name": "Bankstown"
+  }, {
+  "id": 7959,
+  "name": "Darlinghurst"
+  }, {
+  "id": 1314,
+  "name": "Liverpool"
+  }, {
+  "id": 2099,
+  "name": "Inner West"
+  }, {
+  "id": 8588,
+  "name": "Milsons Point"
+  }],
+  "is_done": true,
+  "hotels": [{
+    "id": 272771,
+    "name": "Parkroyal Darling Harbour",
+    "address": "150 Day Street, Sydney, NSW",
+    "districts": [58],
+    "latitude": -33.87361,
+    "longitude": 151.2033,
+    "property_type": 1,
+    "brand_id": 336,
+    "searched": null,
+    "desc": "Be in the thick of everything at amazing accommodation in the heart of Sydney.\n\nYou’ll always be in the centre of the action at this wonderful Darling Harbour hotel. Its convenient location means you’re just minutes away from the city’s top sights and attractions.\n\nThe friendly and well-informed associates at our hotel in Darling Harbour, Sydney are always on hand to share their extensive knowledge of the city’s best-kept secrets with you. Explore the neighbourhood and feel the buzz of energy at the bustling Town Hall train interchange and surrounding malls. The steps of the famous Town Hall landmark have long been a popular meeting point for locals of all ages.\n\nGo for a stroll and enjoy the amazing views at Cockle Bay, take in the city’s history and culture at the galleries and museum at The Rocks, or simply enjoy a spot of retail therapy at shopping precincts like Harbourside and Pitt Street Mall, a favourite with the locals. Once you’re finished exploring, simply rest and relax in the comfort of the 345 rooms and suites at this premium Darling Harbour hotel.",
+    "stars": 4,
+    "map": true,
+    "room_rates": [{
+      "id": "302-1",
+      "price_str": "280",
+      "currency_code": "USD",
+      "currency_sym": "US$",
+      "provider_name": "Skoosh",
+      "provider_code": "skoosh.com",
+      "mobile_friendly": false,
+      "ex_tax": false,
+      "is_direct": false,
+      "description": "Nonrefundable Double Darling-Harbour View-King - Room Only"
+    }],
+    "summary_room_rates": [{
+      "id": "302-1",
+      "price_str": "280",
+      "currency_code": "USD",
+      "currency_sym": "US$",
+      "provider_name": "Skoosh",
+      "provider_code": "skoosh.com",
+      "mobile_friendly": false,
+      "ex_tax": false,
+      "description": "Nonrefundable Double Darling-Harbour View-King - Room Only",
+      "is_direct": false
+    }],
+    "room_rates_count": 1,
+    "room_rate_min": {
+      "id": "302-1",
+      "price_str": "280",
+      "currency_code": "USD",
+      "currency_sym": "US$",
+      "provider_name": "Skoosh",
+      "provider_code": "skoosh.com",
+      "mobile_friendly": false,
+      "ex_tax": false,
+      "is_direct": false
+    },
+    "total_reviews": 3171,
+    "positive": 0,
+    "negative": 0,
+    "neutral": 0,
+    "rooms_count": 345,
+    "rank": 1,
+    "satisfaction": 90,
+    "satisfaction_description": "Excellent",
+    "url": "/hotels/australia/sydney/parkroyal-darling-harbour-272771",
+    "offer": null,
+    "image": "http://0.omg.io/wego/image/upload/w_200,h_200,c_fill/v1411553183/hotels/272771/13723116.jpg"
+  }, {
+  "id": 273390,
+  "name": "Somerset Darling Harbour",
+  "address": "252 Sussex Street",
+  "districts": [58],
+  "latitude": -33.872748,
+  "longitude": 151.204072,
+  "property_type": 1,
+  "brand_id": 361,
+  "searched": null,
+  "desc": "Somerset Darling Harbour is located in Sydneys premier waterfront precinct. Just minutes from the Central Business District- surrounded by iconic Australian sites- the property offers guests the chance to immerse themselves in the citys culture. Darling Harbour is also home to Sydneys burgeoning fashion industry- some of the citys finest dining establishments- spectacular street and theatre entertainment and is perfectly positioned to take full advantage of the Convention Centre- the Powerhouse Museum and the world-renowned Sydney Aquarium and Wild Life park.\n\nSomerset Darling Harbour combines all of this with a stylish yet comfortable residential choice. With 119 well-appointed studio- one- two and three-bedroom apartments over twenty levels- Somerset Darling Harbour is the perfect choice for guests staying for a night- extended stay- assignment or relocation. Somerset Darling Harbour also offers a bar- restaurant- pool- spa and sauna- amongst other facilities to enjoy. Staff are discreet and knowledgeable when it comes to the city they call home- their job is to make our guests feel welcome and to help them settle into the city and integrate with the local culture.",
+  "stars": 4,
+  "map": true,
+  "room_rates": [{
+    "id": "168-1",
+    "price_str": "135",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Hotels.com",
+    "provider_code": "hotels.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "is_direct": false,
+    "description": "Save 25% - NON REFUNDABLE"
+  }, {
+  "id": "193-1",
+  "price_str": "135",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Expedia.co.th",
+  "provider_code": "expedia.co.th",
+  "mobile_friendly": true,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "One Bedroom Executive Apartment - Save 25% - NON REFUNDABLE"
+  }, {
+  "id": "362-201",
+  "price_str": "184",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Ctrip.com",
+  "provider_code": "english.ctrip.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "1 Bedroom Executive ONE BEDROOM-EXECUTIVE DOUBLE (Capacity: 3)"
+  }, {
+  "id": "376-1",
+  "price_str": "185",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Prestigia.com",
+  "provider_code": "prestigia.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "DOUBLE ONE BEDROOM-EXECUTIVE"
+  }, {
+  "id": "302-1",
+  "price_str": "188",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Skoosh",
+  "provider_code": "skoosh.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "Double One Bedroom-Executive - Room Only"
+  }],
+  "summary_room_rates": [{
+    "id": "168-1",
+    "price_str": "135",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Hotels.com",
+    "provider_code": "hotels.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "description": "Save 25% - NON REFUNDABLE",
+    "is_direct": false
+  }, {
+  "id": "193-1",
+  "price_str": "135",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Expedia.co.th",
+  "provider_code": "expedia.co.th",
+  "mobile_friendly": true,
+  "ex_tax": false,
+  "description": "One Bedroom Executive Apartment - Save 25% - NON REFUNDABLE",
+  "is_direct": false
+  }, {
+  "id": "362-201",
+  "price_str": "184",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Ctrip.com",
+  "provider_code": "english.ctrip.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "description": "1 Bedroom Executive ONE BEDROOM-EXECUTIVE DOUBLE (Capacity: 3)",
+  "is_direct": false
+  }, {
+  "id": "376-1",
+  "price_str": "185",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Prestigia.com",
+  "provider_code": "prestigia.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "description": "DOUBLE ONE BEDROOM-EXECUTIVE",
+  "is_direct": false
+  }, {
+  "id": "302-1",
+  "price_str": "188",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Skoosh",
+  "provider_code": "skoosh.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "description": "Double One Bedroom-Executive - Room Only",
+  "is_direct": false
+  }],
+  "room_rates_count": 5,
+  "room_rate_min": {
+    "id": "168-1",
+    "price_str": "135",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Hotels.com",
+    "provider_code": "hotels.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "is_direct": false
+  },
+  "total_reviews": 2395,
+  "positive": 0,
+  "negative": 0,
+  "neutral": 0,
+  "rooms_count": 119,
+  "rank": 2,
+  "satisfaction": 77,
+  "satisfaction_description": "Good",
+  "url": "/hotels/australia/sydney/somerset-darling-harbour-273390",
+  "offer": null,
+  "image": "http://0.omg.io/wego/image/upload/w_200,h_200,c_fill/v1418850021/hotels/273390/2374436.jpg"
+  }, {
+  "id": 529028,
+  "name": "Hilton Sydney",
+  "address": "488 George Street",
+  "districts": [2096],
+  "latitude": -33.87194,
+  "longitude": 151.20695,
+  "property_type": 1,
+  "brand_id": 125,
+  "searched": null,
+  "desc": "Centrally located in the CBD, Hilton Sydney is close to shopping, entertainment and only a short walk from Darling Harbour. The hotel features deluxe accommodation including the luxurious and much-talked about Relaxation Rooms and Suites, while the 4000sqm of flexible event space can accommodate up to 3000 delegates. Few restaurants can match the inspired elegance of glass brasserie where highly awarded restaurateur/Chef Luke Mangan has created the definitive Sydney dining experience. With contemporary design and a rooftop terrace, enjoy cocktails in Zeta bar or visit the heritage-listed Marble Bar renowned for its opulent Victorian decor and live bands. The hotel is also home to LivingWell Premier Health Club, the city’s largest hotel gym, featuring the latest interactive equipment, group fitness studios, saunas, steam rooms, spa and 25m swimming pool. ",
+  "stars": 5,
+  "map": true,
+  "room_rates": [{
+    "id": "168-1",
+    "price_str": "219",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Hotels.com",
+    "provider_code": "hotels.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "is_direct": false,
+    "description": "King Standard Plus - Best Available Rate - REFUNDABLE"
+  }, {
+  "id": "193-1",
+  "price_str": "219",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Expedia.co.th",
+  "provider_code": "expedia.co.th",
+  "mobile_friendly": true,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "King Standard Plus - Best Available Rate - REFUNDABLE - FREE CANCELLATION"
+  }, {
+  "id": "302-1",
+  "price_str": "231",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Skoosh",
+  "provider_code": "skoosh.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "King Hilton Guestroom Plus...City Views, Contemporary Guest Room, Dvd...Aquavision Tv/Shower, Chaise Lounge, Hsi - Room Only"
+  }, {
+  "id": "362-201",
+  "price_str": "248",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Ctrip.com",
+  "provider_code": "english.ctrip.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "Deluxe Plus Room King Hilton Deluxe Plus Room (Capacity: 3)"
+  }],
+  "summary_room_rates": [{
+    "id": "168-1",
+    "price_str": "219",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Hotels.com",
+    "provider_code": "hotels.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "description": "King Standard Plus - Best Available Rate - REFUNDABLE",
+    "is_direct": false
+  }, {
+  "id": "193-1",
+  "price_str": "219",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Expedia.co.th",
+  "provider_code": "expedia.co.th",
+  "mobile_friendly": true,
+  "ex_tax": false,
+  "description": "King Standard Plus - Best Available Rate - REFUNDABLE - FREE CANCELLATION",
+  "is_direct": false
+  }, {
+  "id": "302-1",
+  "price_str": "231",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Skoosh",
+  "provider_code": "skoosh.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "description": "King Hilton Guestroom Plus...City Views, Contemporary Guest Room, Dvd...Aquavision Tv/Shower, Chaise Lounge, Hsi - Room Only",
+  "is_direct": false
+  }, {
+  "id": "362-201",
+  "price_str": "248",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Ctrip.com",
+  "provider_code": "english.ctrip.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "description": "Deluxe Plus Room King Hilton Deluxe Plus Room (Capacity: 3)",
+  "is_direct": false
+  }],
+  "room_rates_count": 4,
+  "room_rate_min": {
+    "id": "168-1",
+    "price_str": "219",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Hotels.com",
+    "provider_code": "hotels.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "is_direct": false
+  },
+  "total_reviews": 5582,
+  "positive": 0,
+  "negative": 0,
+  "neutral": 0,
+  "rooms_count": 577,
+  "rank": 3,
+  "satisfaction": 87,
+  "satisfaction_description": "Excellent",
+  "url": "/hotels/australia/sydney/hilton-sydney-529028",
+  "offer": null,
+  "image": "http://1.omg.io/wego/image/upload/w_200,h_200,c_fill/v1447392742/hotels/529028/10473170.jpg"
+  }, {
+  "id": 273063,
+  "name": "Shangri La Hotel Sydney",
+  "address": "176 Cumberland Street",
+  "districts": [51],
+  "latitude": -33.861378,
+  "longitude": 151.206399,
+  "property_type": 1,
+  "brand_id": null,
+  "searched": null,
+  "desc": "As a reflection of our commitment to continuously provide outstanding facilities to all our guests - we are happy to announce the refurbishment of our Horizon Club Rooms and Lounge from 1 Aug 2014 to late Oct 2014 - The Hotel will also conduct a soft refurbishment to the Lobby and entrance area from late July 2014 to mid-Sep 2014 which will entail a light upgrade of the current facilities and furnishings.\r\n\r\nDuring this time-the rest of the hotel including Cafe Mix - Altitude Restaurant and Blu Bar on level 36 will remain operational and accessible to all guests.\r\n\r\nAll measures will be taken to minimise disruption to our guests-with all renovation works confined to the lobby and levels 30-35 of the hotel and restricted to normal business hours.\r\n\r\nShangri-La Hotel Sydney is located 8 miles north of SYD Airport in the historic Rocks district between the Opera House and Harbour Bridge. Shangri-La Hotel Sydney offers the brightest views of Sydney Harbour - Circular Quay - Sydney Opera House and the Sydney Harbour Bridge. Several restaurants - pubs and shops are all within a short walk of the hotel.\r\n.\r\nLuxurious facilities and services include a business center - health club - spa - award-winning fine dining - meeting rooms - accessible facilities - 24 hour room service and concierge - indoor swimming pool and a bar on the 36th floor with breathtaking views.\r\n\r\nMany of the 563 large and well-appointed rooms and suites offer memorable views of the Sydney Opera House and Harbour. Room amenities include marble bathroom - separate bath and shower - mini-bar - work desk with both wireless and network high speed Internet access - cable TV with premium channels - complimentary and pay-per-view movies - hair dryer - iron and board - blackout drapes - daily newspaper - coffee-tea maker - bedside controls and in room safe.",
+  "stars": 5,
+  "map": true,
+  "room_rates": [{
+    "id": "402-601",
+    "price_str": "262",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Shangri-La",
+    "provider_code": "shangri-la.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "is_direct": false,
+    "description": "Best Available Rate / CustomStay-Deluxe Grand Harbour View Room(Twin)"
+  }, {
+  "id": "193-1",
+  "price_str": "264",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Expedia.co.th",
+  "provider_code": "expedia.co.th",
+  "mobile_friendly": true,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "Deluxe Grand Harbour View King - REFUNDABLE - FREE CANCELLATION"
+  }, {
+  "id": "302-1",
+  "price_str": "305",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Skoosh",
+  "provider_code": "skoosh.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "Deluxe (1 Bed)"
+  }, {
+  "id": "376-1",
+  "price_str": "311",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Prestigia.com",
+  "provider_code": "prestigia.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "DOUBLE HORIZON-DARLING HARBOUR VIEW-KING"
+  }],
+  "summary_room_rates": [{
+    "id": "402-601",
+    "price_str": "262",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Shangri-La",
+    "provider_code": "shangri-la.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "description": "Best Available Rate / CustomStay-Deluxe Grand Harbour View Room(Twin)",
+    "is_direct": false
+  }, {
+  "id": "193-1",
+  "price_str": "264",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Expedia.co.th",
+  "provider_code": "expedia.co.th",
+  "mobile_friendly": true,
+  "ex_tax": false,
+  "description": "Deluxe Grand Harbour View King - REFUNDABLE - FREE CANCELLATION",
+  "is_direct": false
+  }, {
+  "id": "302-1",
+  "price_str": "305",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Skoosh",
+  "provider_code": "skoosh.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "description": "Deluxe (1 Bed)",
+  "is_direct": false
+  }, {
+  "id": "376-1",
+  "price_str": "311",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Prestigia.com",
+  "provider_code": "prestigia.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "description": "DOUBLE HORIZON-DARLING HARBOUR VIEW-KING",
+  "is_direct": false
+  }],
+  "room_rates_count": 4,
+  "room_rate_min": {
+    "id": "402-601",
+    "price_str": "262",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Shangri-La",
+    "provider_code": "shangri-la.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "is_direct": false
+  },
+  "total_reviews": 5717,
+  "positive": 0,
+  "negative": 0,
+  "neutral": 0,
+  "rooms_count": 563,
+  "rank": 4,
+  "satisfaction": 89,
+  "satisfaction_description": "Excellent",
+  "url": "/hotels/australia/sydney/shangri-la-hotel-sydney-273063",
+  "offer": null,
+  "image": "http://1.omg.io/wego/image/upload/w_200,h_200,c_fill/v1427401945/hotels/273063/3574742.jpg"
+  }, {
+  "id": 273231,
+  "name": "Four Seasons Sydney",
+  "address": "199 George Street",
+  "districts": [51],
+  "latitude": -33.861507,
+  "longitude": 151.207752,
+  "property_type": 1,
+  "brand_id": 97,
+  "searched": null,
+  "desc": "The Four Seasons Hotel Sydney is a high rise modern hotel overlooking sydney harbour and the opera house. This signature landmark on the harbourfront offers easy access to both business and leisure districts.\n\nGuest rooms were refurbished in 2009, are quietly secluded on floors 6 to 34 of the tower and are decorated in a contemporary grand luxe style with rich silks and mahogany furniture.\n\nThe hotels four signature suites were renovate in 2011, located on level 34, offer stylish art-deco, new york-style apartment living, in the hear of sydney. Bookings for the signature suites must be made directly with the hotel.\n\nGuests may also purchase access for a nominal fee to the executive club featuring added amenities such as complimentary breakfast, afternoon hors doeuvres, and other services. The hotel offers brasserie-style cuisine, an award winning spa and state of the art fitness centre as well as sydneys largest outdoor hotel swimming pool. The vibrant elegant Four Seasons Hotel Sydney with its friendly australian charm will make every stay memorable.\n\nFour Seasons Hotel Sydney is a non-smoking hotel. This includes all Guest Rooms, Suites and indoor public spaces.",
+  "stars": 5,
+  "map": true,
+  "room_rates": [{
+    "id": "168-1",
+    "price_str": "295",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Hotels.com",
+    "provider_code": "hotels.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "is_direct": false,
+    "description": "Premier City Room - REFUNDABLE"
+  }, {
+  "id": "193-1",
+  "price_str": "295",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Expedia.co.th",
+  "provider_code": "expedia.co.th",
+  "mobile_friendly": true,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "Premier City Room - REFUNDABLE - FREE CANCELLATION"
+  }, {
+  "id": "376-1",
+  "price_str": "304",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Prestigia.com",
+  "provider_code": "prestigia.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "is_direct": false,
+  "description": "DOUBLE CLUB-DELUXE-KING"
+  }],
+  "summary_room_rates": [{
+    "id": "168-1",
+    "price_str": "295",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Hotels.com",
+    "provider_code": "hotels.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "description": "Premier City Room - REFUNDABLE",
+    "is_direct": false
+  }, {
+  "id": "193-1",
+  "price_str": "295",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Expedia.co.th",
+  "provider_code": "expedia.co.th",
+  "mobile_friendly": true,
+  "ex_tax": false,
+  "description": "Premier City Room - REFUNDABLE - FREE CANCELLATION",
+  "is_direct": false
+  }, {
+  "id": "376-1",
+  "price_str": "304",
+  "currency_code": "USD",
+  "currency_sym": "US$",
+  "provider_name": "Prestigia.com",
+  "provider_code": "prestigia.com",
+  "mobile_friendly": false,
+  "ex_tax": false,
+  "description": "DOUBLE CLUB-DELUXE-KING",
+  "is_direct": false
+  }],
+  "room_rates_count": 3,
+  "room_rate_min": {
+    "id": "168-1",
+    "price_str": "295",
+    "currency_code": "USD",
+    "currency_sym": "US$",
+    "provider_name": "Hotels.com",
+    "provider_code": "hotels.com",
+    "mobile_friendly": true,
+    "ex_tax": false,
+    "is_direct": false
+  },
+  "total_reviews": 4039,
+  "positive": 0,
+  "negative": 0,
+  "neutral": 0,
+  "rooms_count": 531,
+  "rank": 5,
+  "satisfaction": 90,
+  "satisfaction_description": "Excellent",
+  "url": "/hotels/australia/sydney/four-seasons-sydney-273231",
+  "offer": null,
+  "image": "http://0.omg.io/wego/image/upload/w_200,h_200,c_fill/v1418238803/hotels/273231/29712669.jpg"
+  }]
+}

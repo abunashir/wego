@@ -61,6 +61,16 @@ Wego::Search.create(
 )
 ```
 
+### Results
+
+Once user created a new search and they have the `search_id` then they can
+retrieve that search results very easily. Wego suggests to wait at least
+10 seconds after starting the search
+
+```ruby
+Wego::Search.find(search_id).results
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies.

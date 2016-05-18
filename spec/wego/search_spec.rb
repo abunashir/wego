@@ -16,4 +16,16 @@ describe Wego::Search do
     expect(search.is_done).to be_falsey
     expect(search.created_at).not_to be_nil
   end
+
+  describe "#results" do
+    it "returns search results" do
+      search_id = 715_374_75
+      stub_search_results_api(search_id)
+      results = Wego::Search.find(search_id).results
+
+      expect(results.location).to eq("Sydney")
+      expect(results.count).to eq(5)
+      expect(results.hotels.first.name).to eq("Parkroyal Darling Harbour")
+    end
+  end
 end

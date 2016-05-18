@@ -5,7 +5,7 @@ module Wego
   class Client
     attr_reader :end_point, :attributes
 
-    def initialize(end_point, attributes)
+    def initialize(end_point, attributes = {})
       @end_point = end_point
       @attributes = attributes
     end

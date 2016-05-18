@@ -9,6 +9,11 @@ module FakeWegoApi
       to_return(response_with(file: "search", status: 200))
   end
 
+  def stub_search_results_api(search_id)
+    stub_request(:get, api_path("search/#{search_id}")).
+      to_return(response_with(file: "results", status: 200))
+  end
+
   private
 
   def api_path(end_point, attributes = {})
