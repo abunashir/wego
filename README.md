@@ -71,6 +71,14 @@ retrieve that search results very easily. Wego suggests to wait at least
 Wego::Search.find(search_id).results
 ```
 
+### Hotel Details
+
+Get details of a hotel, like its address, amenities, photos.
+
+```ruby
+Wego::Result.find_by search_id: search_id, hotel_id: hotel_id
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies.

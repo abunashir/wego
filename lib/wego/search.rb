@@ -1,3 +1,5 @@
+require "wego/result"
+
 module Wego
   class Search
     attr_reader :search_id
@@ -7,7 +9,7 @@ module Wego
     end
 
     def results
-      Wego::Client.new("search/#{search_id}").get
+      Result.new(search_id: search_id).all
     end
 
     def self.find(search_id)
@@ -15,7 +17,7 @@ module Wego
     end
 
     def self.create(search_terms)
-      Wego::Client.new("search/new", search_terms).get
+      Wego.get_resource "search/new", search_terms
     end
   end
 end

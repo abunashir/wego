@@ -1,0 +1,107 @@
+{
+  "total_count": 260,
+  "location": "Sydney",
+  "location_id": 7046,
+  "hotel": {
+    "id": 273451,
+    "name": "InterContinental Sydney",
+    "address": "117 Macquarie St, cnr of Bridge and Phillip",
+    "searched": null,
+    "desc": "Some visit Sydneys icons. Others stay in them. For more than 25 years, InterContinental Sydney has been the luxury hotel of choice to meet, do business and unlock authentic experiences that make Australias harbour city one of the best places in the world to live, work and visit. From its exceptional service and world-class facilities to luxury accommodation and rooftop Club InterContinental lounge overlooking the harbour, it offers everything you need to make your time in the city count.",
+    "stars": 5,
+    "map": true,
+    "total_reviews": 2790,
+    "positive": 0,
+    "negative": 0,
+    "neutral": 0,
+    "recent_snippet": "",
+    "rooms_count": 509,
+    "rank": 1,
+    "satisfaction": 91,
+    "satisfaction_description": "Excellent",
+    "url": "/hotels/australia/sydney/intercontinental-sydney-273451",
+    "offer": null,
+    "image": "http://1.omg.io/wego/image/upload/w_200,h_200,c_fill/v1459219868/hotels/273451/9438078.jpg",
+    "cancellation_policy": {
+      "en": "Cancellation policies vary by hotel. Since a hotel can set a cancellation policy up to 30 days prior to arrival, please review rate rules prior to booking to avoid possible charges."
+    },
+    "check_in": "15:00:00",
+    "check_out": "11:00:00",
+    "reservation_phone": "+61292539000",
+    "fax": "9240 1240",
+    "longitude": 151.212108,
+    "latitude": -33.863111,
+    "postal_code": "2000",
+    "property_amenities": ["High speed internet access", "Swimming pool", "Parking", "Restaurant", "Fitness center or spa", "24-hour front desk", "24-hour security", "Accessible facilities", "Air conditioning", "All public areas non-smoking", "Baby sitting", "Banquet facilities", "Beauty shop/salon", "Bell staff/porter", "Business center", "Concierge", "Connecting rooms", "Currency exchange", "Express check-out", "Fax service", "Florist", "Gift/News stand", "Golf", "Ice machine", "Kitchenette", "Laundry service", "Lounges/bars", "Multilingual staff", "Room service", "Safe deposit box", "Secretarial service", "Shopping mall", "Tour/sightseeing desk", "Valet parking ", "Wakeup service"],
+    "property_amenity_ids": ["key_amenity_1", "key_amenity_2", "key_amenity_3", "key_amenity_4", "key_amenity_5", "service_2", "service_3", "service_4", "service_6", "service_8", "service_11", "service_16", "service_17", "service_20", "service_25", "service_42", "service_5", "service_44", "service_58", "service_59", "service_61", "service_66", "service_67", "service_74", "service_78", "service_80", "service_85", "service_89", "service_99", "service_100", "service_102", "service_104", "service_109", "service_112", "service_114"],
+    "room_amenities": ["Accessible room", "Non-smoking"],
+    "room_amenity_ids": [1, 42],
+    "images": [{
+      "url": "http://1.omg.io/wego/image/upload/w_460,h_460,c_fill/v1459219868/hotels/273451/9438079.jpg"
+    }, {
+    "url": "http://1.omg.io/wego/image/upload/w_460,h_460,c_fill/v1459219868/hotels/273451/2945552.jpg"
+    }, {
+    "url": "http://1.omg.io/wego/image/upload/w_460,h_460,c_fill/v1459219861/hotels/273451/2945566.jpg"
+    }, {
+    "url": "http://0.omg.io/wego/image/upload/w_460,h_460,c_fill/v1459219861/hotels/273451/2945563.jpg"
+    }, {
+    "url": "http://0.omg.io/wego/image/upload/w_460,h_460,c_fill/v1459219860/hotels/273451/10684581.jpg"
+    }, {
+    "url": "http://0.omg.io/wego/image/upload/w_460,h_460,c_fill/v1427402710/hotels/273451/8932817.jpg"
+    }, {
+    "url": "http://0.omg.io/wego/image/upload/w_460,h_460,c_fill/v1459219856/hotels/273451/32445409.jpg"
+    }, {
+    "url": "http://0.omg.io/wego/image/upload/w_460,h_460,c_fill/v1427402710/hotels/273451/36817407.jpg"
+    }, {
+    "url": "http://1.omg.io/wego/image/upload/w_460,h_460,c_fill/v1459219856/hotels/273451/38430574.jpg"
+    }, {
+    "url": "http://0.omg.io/wego/image/upload/w_460,h_460,c_fill/v1427402815/hotels/273451/12769231.jpg"
+    }],
+    "videos": [],
+    "concepts": [],
+    "tops_flops_review": [],
+    "hotel_types_review": [],
+    "good_to_knows_review": [],
+    "room_rates": [{
+      "id": "362-201",
+      "price_str": "253",
+      "currency_code": "USD",
+      "currency_sym": "US$",
+      "provider_name": "Ctrip.com",
+      "provider_code": "english.ctrip.com",
+      "mobile_friendly": false,
+      "ex_tax": false,
+      "is_direct": false,
+      "description": "Deluxe Room KING DELUXE (Capacity: 3)",
+      "phones": null
+    }],
+    "summary_room_rates": [{
+      "id": "362-201",
+      "price_str": "253",
+      "currency_code": "USD",
+      "currency_sym": "US$",
+      "provider_name": "Ctrip.com",
+      "provider_code": "english.ctrip.com",
+      "mobile_friendly": false,
+      "ex_tax": false,
+      "is_direct": false,
+      "description": "Deluxe Room KING DELUXE (Capacity: 3)",
+      "phones": null
+    }],
+    "room_rates_count": 1,
+    "room_rate_min": {
+      "id": "362-201",
+      "price_str": "253",
+      "currency_code": "USD",
+      "currency_sym": "US$",
+      "provider_name": "Ctrip.com",
+      "provider_code": "english.ctrip.com",
+      "mobile_friendly": false,
+      "ex_tax": false,
+      "is_direct": false,
+      "description": "Deluxe Room KING DELUXE (Capacity: 3)",
+      "phones": null
+    }
+  },
+  "is_done": true
+}

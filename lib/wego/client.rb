@@ -33,4 +33,8 @@ module Wego
       JSON.parse response, object_class: OpenStruct
     end
   end
+
+  def self.get_resource(end_point, api_params = {})
+    Wego::Client.new(end_point, api_params).get
+  end
 end

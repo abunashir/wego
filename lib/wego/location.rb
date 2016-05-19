@@ -1,7 +1,7 @@
 module Wego
   class Location
     def self.find(location)
-      Wego::Client.new("locations/search", q: location).get
+      Wego.get_resource "locations/search", q: location
     end
   end
 end
