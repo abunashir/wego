@@ -36,4 +36,17 @@ describe Wego::Configuration do
       expect(Wego.configuration.api_key).to eq(custom_api_key)
     end
   end
+
+  describe "#api_keys" do
+    it "returns the api keys in required format" do
+      Wego.configure do |config|
+        config.api_key = "custom_api_key"
+        config.api_code = "custom_api_code"
+      end
+
+      expect(
+        Wego.configuration.api_keys
+      ).to eq(ts_code: "custom_api_code", key: "custom_api_key")
+    end
+  end
 end

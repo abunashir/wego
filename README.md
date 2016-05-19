@@ -79,6 +79,16 @@ Get details of a hotel, like its address, amenities, photos.
 Wego::Result.find_by search_id: search_id, hotel_id: hotel_id
 ```
 
+### Booking
+
+The Wego API doesn't support the shopping cart or e-commerce process either, but
+using the API you can take users to continue the booking process at one of
+their partners' sites.
+
+```ruby
+Wego::Booking.new(search_id: search_id, hotel_id: hotel_id, room_rate_id: rate_id).redirect_url
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies.

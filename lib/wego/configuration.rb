@@ -7,6 +7,10 @@ module Wego
     def initialize
       @api_host = "http://api.wego.com/hotels/api"
     end
+
+    def api_keys
+      { key: api_key, ts_code: api_code }
+    end
   end
 
   def self.configuration

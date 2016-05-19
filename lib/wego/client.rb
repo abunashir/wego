@@ -1,4 +1,5 @@
 require "rest-client"
+require "wego/response"
 require "wego/configuration"
 
 module Wego
@@ -11,9 +12,12 @@ module Wego
     end
 
     def get
-      parse_response_to_object(
-        RestClient.get(api_path, params: api_params)
-      )
+      RestClient.get api_path, params: api_params
+    end
+
+    def raw_url
+      params = api_params.map { |key, value| "#{key}=#{value}" }.join("&")
+      [api_path, params].join("?")
     end
 
     private
@@ -23,18 +27,13 @@ module Wego
     end
 
     def api_params
-      attributes.merge(
-        ts_code: Wego.configuration.api_code,
-        key: Wego.configuration.api_key
-      )
-    end
-
-    def parse_response_to_object(response)
-      JSON.parse response, object_class: OpenStruct
+      Wego.configuration.api_keys.merge attributes
     end
   end
 
   def self.get_resource(end_point, api_params = {})
-    Wego::Client.new(end_point, api_params).get
+    Wego::Response.parse_json(
+      Client.new(end_point, api_params).get
+    )
   end
 end
