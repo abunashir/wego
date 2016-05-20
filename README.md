@@ -43,8 +43,10 @@ searching for hotels. The Locations API allows you to lookup text queries like
 "sydney" to get a list of matching locations and their IDs.
 
 ```ruby
-Wego::Location.find "sydney"
+Wego::Location.find "sydney", options_hash
 ```
+
+Complete list of options: [Wego Location API].
 
 ### Search
 
@@ -54,12 +56,11 @@ For example: create new search for hotels in Sydney (location ID 7046)
 
 ```ruby
 Wego::Search.create(
-  location_id: "7046",
-  check_in: "2016-05-20",
-  check_out: "2016-05-25",
-  user_ip: "127.0.0.1"
+  location_id: "7046", check_in: "yyyy-mm-dd", check_out: "yyyy-mm-dd", user_ip: end_user_ip
 )
 ```
+
+Complete list of parameters: [Wego Search API].
 
 ### Results
 
@@ -68,16 +69,20 @@ retrieve that search results very easily. Wego suggests to wait at least
 10 seconds after starting the search
 
 ```ruby
-Wego::Search.find(search_id).results
+Wego::Result.find search_id, options_hash
 ```
+
+Complete list of options: [Wego Search Results API].
 
 ### Hotel Details
 
 Get details of a hotel, like its address, amenities, photos.
 
 ```ruby
-Wego::Result.find_by search_id: search_id, hotel_id: hotel_id
+Wego::Result.find search_id, hotel_id: hotel_id
 ```
+
+Complete list of parameters: [Wego Search Result API].
 
 ### Booking
 
@@ -109,3 +114,8 @@ of conduct.
 
 The gem is available as open source under the terms of
 the [MIT License](http://opensource.org/licenses/MIT).
+
+[Wego Location API]: http://support.wan.travel/hc/en-us/articles/200713154#api_locations_search
+[Wego Search API]: http://support.wan.travel/hc/en-us/articles/200713154#api_search_new
+[Wego Search Results API]: http://support.wan.travel/hc/en-us/articles/200713154#api_search_search_id
+[Wego Search Result API]: http://support.wan.travel/hc/en-us/articles/200713154#api_show_hotel_id

@@ -4,7 +4,7 @@ describe Wego::Client do
   describe ".get_resource" do
     it "submit a get request" do
       location_name = "sydney"
-      stub_get_location_api(location: location_name)
+      stub_get_location_api(q: location_name)
 
       expect(
         Wego.get_resource("locations/search", q: location_name).query

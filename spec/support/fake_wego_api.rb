@@ -1,6 +1,6 @@
 module FakeWegoApi
-  def stub_get_location_api(location:)
-    stub_request(:get, api_path("locations/search", q: location)).
+  def stub_get_location_api(options = {})
+    stub_request(:get, api_path("locations/search", options)).
       to_return(response_with(file: "locations", status: 200))
   end
 
@@ -9,8 +9,8 @@ module FakeWegoApi
       to_return(response_with(file: "search", status: 200))
   end
 
-  def stub_search_results_api(search_id)
-    stub_request(:get, api_path("search/#{search_id}")).
+  def stub_search_results_api(search_id, options = {})
+    stub_request(:get, api_path("search/#{search_id}", options)).
       to_return(response_with(file: "results", status: 200))
   end
 
@@ -26,15 +26,12 @@ module FakeWegoApi
   end
 
   def wego_api_url(end_point)
-    [wego_api_host, end_point].join("/")
+    [Wego.configuration.api_host, end_point].join("/")
   end
 
   def serlized_options(attributes = {})
-    attributes.merge(api_keys).map { |key, value| "#{key}=#{value}" }.join("&")
-  end
-
-  def wego_api_host
-    "http://api.wego.com/hotels/api"
+    api_params = Wego.configuration.api_keys.merge attributes
+    api_params.map { |key, value| "#{key}=#{value}" }.join("&")
   end
 
   def response_with(file:, status:)
@@ -43,9 +40,5 @@ module FakeWegoApi
 
   def fixture_file(filename)
     File.read "./spec/fixtures/#{filename}.json"
-  end
-
-  def api_keys
-    { key: Wego.configuration.api_key, ts_code: Wego.configuration.api_code }
   end
 end
