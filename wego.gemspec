@@ -8,11 +8,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Abu Nashir"]
   spec.email         = ["abunashir@gmail.com"]
 
-  spec.summary       = "Wego API wrapper"
-  spec.description   = %q{Wego API wrapper for Ruby}
+  spec.summary       = "Wego API wrapper in Ruby"
+  spec.description   = %q{Wego API wrapper in Ruby}
   spec.homepage      = "http://www.wan.travel/api"
   spec.license       = "MIT"
-  spec.version       = Wego::VERSION
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ["lib"]

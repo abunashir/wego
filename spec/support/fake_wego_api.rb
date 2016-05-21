@@ -19,6 +19,11 @@ module FakeWegoApi
       to_return(response_with(file: "result", status: 200))
   end
 
+  def stub_invalid_api_response(status: 404)
+    stub_request(:get, api_path("invalid/resource")).
+      to_return(response_with(file: "error", status: status))
+  end
+
   private
 
   def api_path(end_point, attributes = {})

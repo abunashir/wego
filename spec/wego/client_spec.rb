@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe Wego::Client do
-  describe ".get_resource" do
+RSpec.describe Wego, ".get_resource" do
+  context "when resource exists" do
     it "submit a get request" do
       location_name = "sydney"
       stub_get_location_api(q: location_name)
@@ -12,13 +12,20 @@ describe Wego::Client do
     end
   end
 
-  describe "#raw url" do
-    it "reutns the url with serialized params" do
-      attrs = { location: "dhaka" }
-      resource = Wego::Client.new("/custom", attrs)
-
-      expect(resource.raw_url).to include("/custom?#{wego_api_path(attrs)}")
+  context "when resource does not exists" do
+    it "returns nil" do
+      stub_invalid_api_response(status: 404)
+      expect(Wego.get_resource("invalid/resource")).to be_nil
     end
+  end
+end
+
+RSpec.describe Wego::Client, "#raw url" do
+  it "reutns the url with serialized params" do
+    attrs = { location: "dhaka" }
+    resource = Wego::Client.new("/custom", attrs)
+
+    expect(resource.raw_url).to include("/custom?#{wego_api_path(attrs)}")
   end
 
   def wego_api_path(options = {})
