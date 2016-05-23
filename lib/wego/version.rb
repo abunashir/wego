@@ -1,3 +1,3 @@
 module Wego
-  VERSION = "0.0.1".freeze
+  VERSION = "0.0.9".freeze
 end
