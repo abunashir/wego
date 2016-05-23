@@ -35,6 +35,6 @@ module Wego
     Wego::Response.parse_json(
       Client.new(end_point, api_params).get
     )
-  rescue RestClient::ResourceNotFound
+  rescue RestClient::ResourceNotFound, RestClient::BadRequest
   end
 end

@@ -18,6 +18,13 @@ RSpec.describe Wego, ".get_resource" do
       expect(Wego.get_resource("invalid/resource")).to be_nil
     end
   end
+
+  context "when user submit invalid data" do
+    it "simple ignore it and returns nil" do
+      stub_invalid_api_response(status: 400)
+      expect(Wego.get_resource("invalid/resource")).to be_nil
+    end
+  end
 end
 
 RSpec.describe Wego::Client, "#raw url" do
