@@ -15,7 +15,7 @@ module Wego
       RestClient.get api_path, params: api_params
     end
 
-    def raw_url
+    def url
       params = api_params.map { |key, value| "#{key}=#{value}" }.join("&")
       [api_path, params].join("?")
     end

@@ -91,7 +91,7 @@ using the API you can take users to continue the booking process at one of
 their partners' sites.
 
 ```ruby
-Wego::Booking.new(search_id: search_id, hotel_id: hotel_id, room_rate_id: rate_id).redirect_url
+Wego::Booking.url_for search_id, hotel_id: hotel_id, room_rate_id: room_rate_id
 ```
 
 ## Development

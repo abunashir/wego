@@ -1,25 +1,11 @@
 module Wego
   class Booking
-    attr_reader :search_id, :hotel_id, :room_rate_id
-
-    def initialize(attrs)
-      @search_id  = attrs[:search_id]
-      @hotel_id   = attrs[:hotel_id]
-      @room_rate_id = attrs[:room_rate_id]
-    end
-
-    def redirect_url
-      resource.raw_url
-    end
-
-    private
-
-    def resource
-      @resource ||= Wego::Client.new(
+    def self.url_for(search_id, hotel_id:, room_rate_id:)
+      Wego::Client.new(
         "search/redirect/#{search_id}",
         hotel_id: hotel_id,
         room_rate_id: room_rate_id
-      )
+      ).url
     end
   end
 end

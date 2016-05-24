@@ -27,12 +27,12 @@ RSpec.describe Wego, ".get_resource" do
   end
 end
 
-RSpec.describe Wego::Client, "#raw url" do
+RSpec.describe Wego::Client, "#url" do
   it "reutns the url with serialized params" do
     attrs = { location: "dhaka" }
     resource = Wego::Client.new("/custom", attrs)
 
-    expect(resource.raw_url).to include("/custom?#{wego_api_path(attrs)}")
+    expect(resource.url).to include("/custom?#{wego_api_path(attrs)}")
   end
 
   def wego_api_path(options = {})
