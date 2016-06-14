@@ -1,46 +1,41 @@
 module FakeWegoApi
   def stub_get_location_api(options = {})
-    stub_request(:get, api_path("locations/search", options)).
-      to_return(response_with(file: "locations", status: 200))
+    stub_api_response("locations/search", options, filename: "locations")
   end
 
   def stub_new_search_api(search_terms)
-    stub_request(:get, api_path("search/new", search_terms)).
-      to_return(response_with(file: "search", status: 200))
+    stub_api_response("search/new", search_terms, filename: "search")
   end
 
   def stub_search_results_api(search_id, options = {})
-    stub_request(:get, api_path("search/#{search_id}", options)).
-      to_return(response_with(file: "results", status: 200))
+    stub_api_response("search/#{search_id}", options, filename: "results")
   end
 
   def stub_search_result_api(search_id:, hotel_id:)
-    stub_request(:get, api_path("search/#{search_id}", hotel_id: hotel_id)).
-      to_return(response_with(file: "result", status: 200))
+    stub_api_response(
+      "search/#{search_id}", { hotel_id: hotel_id }, filename: "result"
+    )
   end
 
   def stub_invalid_api_response(status: 404)
-    stub_request(:get, api_path("invalid/resource")).
-      to_return(response_with(file: "error", status: status))
+    stub_api_response(
+      "invalid/resource", {}, filename: "error", status: status
+    )
   end
 
   private
 
+  def stub_api_response(end_point, options, filename:, status: 200)
+    stub_request(:get, api_path(end_point, options)).
+      to_return(response_with(filename: filename, status: status))
+  end
+
   def api_path(end_point, attributes = {})
-    [wego_api_url(end_point), serlized_options(attributes)].join("?")
+    Wego::Client.new(end_point, attributes).url
   end
 
-  def wego_api_url(end_point)
-    [Wego.configuration.api_host, end_point].join("/")
-  end
-
-  def serlized_options(attributes = {})
-    api_params = Wego.configuration.api_keys.merge attributes
-    api_params.map { |key, value| "#{key}=#{value}" }.join("&")
-  end
-
-  def response_with(file:, status:)
-    { body: fixture_file(file), status: status }
+  def response_with(filename:, status:)
+    { body: fixture_file(filename), status: status }
   end
 
   def fixture_file(filename)
