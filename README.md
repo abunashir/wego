@@ -103,11 +103,23 @@ interactive prompt that will allow you to experiment.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on
-GitHub at https://github.com/[USERNAME]/wego. This project is intended to be
-a safe, welcoming space for collaboration, and contributors are expected to
-adhere to the [Contributor Covenant](http://contributor-covenant.org) code
-of conduct.
+First, thank you for contributing! We love pull requests from everyone. By
+participating in this project, you hereby grant the right to grant or transfer
+an unlimited number of non exclusive licenses or sub-licenses to third parties,
+under the copyright covering the contribution to use the contribution by all
+means.
+
+Here are a few technical guidelines to follow:
+
+1. Open an [issue][issues] to discuss a new feature.
+1. Write tests to support your new feature.
+1. Make sure the entire test suite passes locally and on CI.
+1. Open a Pull Request.
+1. [Squash your commits][squash] after receiving feedback.
+1. Party!
+
+[issues]: https://github.com/abunashir/wego/issues
+[squash]: https://github.com/thoughtbot/guides/tree/master/protocol/git#write-a-feature
 
 
 ## License
