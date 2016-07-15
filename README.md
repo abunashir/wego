@@ -6,8 +6,8 @@ Status](https://travis-ci.org/abunashir/wego.svg?branch=master)](https://travis-
 Climate](https://codeclimate.com/github/abunashir/wego/badges/gpa.svg)](https://codeclimate.com/github/abunashir/wego)
 
 The Wego Hotels API allows developers to interact with the Hotels product of
-Wego.com programmatically via HTTP requests. All API methods are HTTP requests
-and responses are in JSON format unless otherwise stated.
+Wego.com programmatically via HTTP requests. This is the interface to the Wego
+Hotels API and responses are parsed to `OpenStruct` object.
 
 ## Installation
 
@@ -19,11 +19,11 @@ gem "wego", github: "abunashir/wego"
 
 And then execute:
 
-    $ bundle
+```sh
+$ bundle install
+```
 
-## Usages
-
-### Configure
+## Configure
 
 Once you are approved and you got your API key from Wego.com, then you can add
 an initializer to set your API key
@@ -35,6 +35,8 @@ Wego.configure do |config|
 end
 ```
 
+## Usages
+
 ### Locations
 
 Use this to map user location queries to Wego location IDs. E.g. you will
@@ -43,7 +45,9 @@ searching for hotels. The Locations API allows you to lookup text queries like
 "sydney" to get a list of matching locations and their IDs.
 
 ```ruby
-Wego::Location.find "sydney", options_hash
+Wego::Location.find(
+  "sydney", lang: "en", page: 1, per_page: 10
+)
 ```
 
 Complete list of options: [Wego Location API].
@@ -56,7 +60,12 @@ For example: create new search for hotels in Sydney (location ID 7046)
 
 ```ruby
 Wego::Search.create(
-  location_id: "7046", check_in: "yyyy-mm-dd", check_out: "yyyy-mm-dd", user_ip: end_user_ip
+  location_id: "7046",
+  rooms: 1,
+  guests: 2,
+  check_in: "2016-07-15",
+  check_out: "2016-07-20",
+  user_ip: end_user_ip
 )
 ```
 
@@ -69,7 +78,15 @@ retrieve that search results very easily. Wego suggests to wait at least
 10 seconds after starting the search
 
 ```ruby
-Wego::Result.find search_id, options_hash
+Wego::Result.find(
+  search_id,
+  lang: "en",
+  page: 1,
+  per_page: 20,
+  order: "asc",
+  sort: "popularity",
+  currency_code: "USD"
+)
 ```
 
 Complete list of options: [Wego Search Results API].
@@ -79,7 +96,9 @@ Complete list of options: [Wego Search Results API].
 Get details of a hotel, like its address, amenities, photos.
 
 ```ruby
-Wego::Result.find search_id, hotel_id: hotel_id
+Wego::Result.find(
+  search_id, hotel_id: hotel_id, lang: "en", currency: "USD"
+)
 ```
 
 Complete list of parameters: [Wego Search Result API].
@@ -91,14 +110,59 @@ using the API you can take users to continue the booking process at one of
 their partners' sites.
 
 ```ruby
-Wego::Booking.url_for search_id, hotel_id: hotel_id, room_rate_id: room_rate_id
+Wego::Booking.url_for(
+  search_id, hotel_id: hotel_id, room_rate_id: room_rate_id
+)
 ```
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies.
-Then, run `rake spec` to run the tests. You can also run `bin/console` for an
-interactive prompt that will allow you to experiment.
+We are following Sandi Metz's Rules for this gem, you can read the
+[description of the rules here]
+(http://robots.thoughtbot.com/post/50655960596/sandi-metz-rules-for-developers). All new code should follow these rules. If you make changes in a pre-existing
+file that violates these rules you should fix the violations as part of
+your contribution.
+
+### Setup
+
+* Clone the repository.
+
+```sh
+git clone https://github.com/abunashir/wego.git
+```
+
+* Setup your environment.
+
+```sh
+bin/setup
+```
+
+* Run the test suite
+
+```sh
+bin/rake
+```
+
+### PlayBox
+
+* Setup API keys.
+
+```sh
+cp .sample.pryrc .pryrc
+vim .pryrc
+```
+
+* Start your console.
+
+```sh
+bin/console
+```
+
+* Start playing with it.
+
+```sh
+Wego::Location.find "sydney"
+```
 
 ## Testing
 
