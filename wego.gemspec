@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["abunashir@gmail.com"]
 
   spec.summary       = "Wego API wrapper in Ruby"
-  spec.description   = %q{This Ruby interface to the Wego Hotels API}
+  spec.description   = %q{The Ruby interface to the Wego Hotels API}
   spec.homepage      = "http://www.wan.travel/api"
   spec.license       = "MIT"
 

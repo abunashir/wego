@@ -4,6 +4,8 @@
 Status](https://travis-ci.org/abunashir/wego.svg?branch=master)](https://travis-ci.org/abunashir/wego)
 [![Code
 Climate](https://codeclimate.com/github/abunashir/wego/badges/gpa.svg)](https://codeclimate.com/github/abunashir/wego)
+[![Gem
+Version](https://badge.fury.io/rb/wego.svg)](https://badge.fury.io/rb/wego)
 
 The Wego Hotels API allows developers to interact with the Hotels product of
 Wego.com programmatically via HTTP requests. This is the interface to the Wego
@@ -14,7 +16,7 @@ Hotels API and responses are parsed to `OpenStruct` object.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "wego", github: "abunashir/wego"
+gem "wego"
 ```
 
 And then execute:
