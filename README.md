@@ -26,7 +26,7 @@ $ bundle install
 ## Configure
 
 Once you are approved and you got your API key from Wego.com, then you can add
-an initializer to set your API key
+an initializer to set your API keys
 
 ```ruby
 Wego.configure do |config|
