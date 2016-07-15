@@ -39,6 +39,9 @@ module FakeWegoApi
   end
 
   def fixture_file(filename)
-    File.read "./spec/fixtures/#{filename}.json"
+    file_name = [filename, "json"].join(".")
+    file_path = ["../../fixtures", file_name].join("/")
+
+    File.read(File.expand_path(file_path, __FILE__))
   end
 end

@@ -100,6 +100,17 @@ After checking out the repo, run `bin/setup` to install dependencies.
 Then, run `rake spec` to run the tests. You can also run `bin/console` for an
 interactive prompt that will allow you to experiment.
 
+## Testing
+
+### RSpec
+
+This gem provides an easier way to test Wego API Responses. Simply include the
+following line in your `spec_helper` and you should have access to all of the
+test helpers.
+
+```ruby
+require "wego/rspec"
+```
 
 ## Contributing
 
