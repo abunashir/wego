@@ -13,9 +13,10 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://www.wan.travel/api"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  spec.files         = `git ls-files`.split("\n")
   spec.require_paths = ["lib"]
   spec.test_files    = `git ls-files -- {spec}/*`.split("\n")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.1.9")
 
   spec.add_dependency "rest-client", "~> 1.8"
 
