@@ -27,18 +27,18 @@ module FakeWegoApi
 
   def stub_api_response(end_point, options, filename:, status: 200)
     stub_request(:get, api_path(end_point, options)).
-      to_return(response_with(filename: filename, status: status))
+      to_return(wego_api_response_with(filename: filename, status: status))
   end
 
   def api_path(end_point, attributes = {})
     Wego::Client.new(end_point, attributes).url
   end
 
-  def response_with(filename:, status:)
-    { body: fixture_file(filename), status: status }
+  def wego_api_response_with(filename:, status:)
+    { body: wego_fixture_file(filename), status: status }
   end
 
-  def fixture_file(filename)
+  def wego_fixture_file(filename)
     file_name = [filename, "json"].join(".")
     file_path = ["../../fixtures", file_name].join("/")
 
