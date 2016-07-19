@@ -178,6 +178,42 @@ test helpers.
 require "wego/rspec"
 ```
 
+##### Find a location
+
+```ruby
+stub_get_location_api(q: location_name, lang: 1, page: 1, per_page: 10)
+```
+
+##### Create a new search
+
+```ruby
+stub_new_search_api(search_term_as_hash)
+```
+
+##### Search results
+
+```ruby
+stub_search_results_api(search_id, additional_option_hash)
+```
+
+##### Search result (Hotel)
+
+```ruby
+stub_search_result_api(search_id: search_id, hotel_id: hotel_id, **options)
+```
+
+##### Invalid search result
+
+```ruby
+stub_invalid_search_result_api(option_hash)
+```
+
+##### Invalid API response
+
+```ruby
+stub_invalid_api_response(status: status_code)
+```
+
 ## Contributing
 
 First, thank you for contributing! We love pull requests from everyone. By
