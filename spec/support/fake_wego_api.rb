@@ -19,6 +19,15 @@ module FakeWegoApi
     )
   end
 
+  def stub_invalid_search_result_api(search_id:, hotel_id:, **options)
+    stub_api_response(
+      "search/#{search_id}",
+      options.merge(hotel_id: hotel_id),
+      filename: "error",
+      status: 400
+    )
+  end
+
   def stub_invalid_api_response(status: 404)
     stub_api_response(
       "invalid/resource", {}, filename: "error", status: status
