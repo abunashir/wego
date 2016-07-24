@@ -113,7 +113,7 @@ their partners' sites.
 
 ```ruby
 Wego::Booking.url_for(
-  search_id, hotel_id: hotel_id, room_rate_id: room_rate_id
+  search_id, hotel_id: hotel_id, room_rate_id: room_rate_id, locale: "en"
 )
 ```
 
