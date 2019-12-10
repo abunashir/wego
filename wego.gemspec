@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = `git ls-files -- {spec}/*`.split("\n")
   spec.required_ruby_version = Gem::Requirement.new(">= 2.1.9")
 
-  spec.add_dependency "rest-client", "~> 1.8"
+  spec.add_dependency "rest-client", "~> 2.0"
 
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
