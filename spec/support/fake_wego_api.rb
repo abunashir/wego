@@ -14,7 +14,7 @@ module FakeWegoApi
   def stub_search_result_api(search_id:, hotel_id:, **options)
     stub_api_response(
       "search/#{search_id}",
-      options.merge(hotel_id: hotel_id),
+      options.merge(hotel_id: hotel_id).compact,
       filename: "result"
     )
   end

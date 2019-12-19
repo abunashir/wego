@@ -27,7 +27,7 @@ module Wego
     end
 
     def api_params
-      Wego.configuration.api_keys.merge attributes
+      Wego.configuration.api_keys.merge(attributes).compact
     end
   end
 

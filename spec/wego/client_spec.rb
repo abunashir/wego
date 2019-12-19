@@ -36,7 +36,7 @@ RSpec.describe Wego::Client, "#url" do
   end
 
   def wego_api_path(options = {})
-    params = Wego.configuration.api_keys.merge(options)
+    params = Wego.configuration.api_keys.merge(options).compact
     params.map { |key, value| "#{key}=#{value}" }.join("&")
   end
 end
